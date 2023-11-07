@@ -1,0 +1,11 @@
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.csproj.AssemblyReference.cache
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.Properties.Resources.resources
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.csproj.GenerateResource.cache
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\tarda\source\repos\ConexionBaseDatos\bin\Debug\ConexionBaseDatos.exe.config
+C:\Users\tarda\source\repos\ConexionBaseDatos\bin\Debug\ConexionBaseDatos.exe
+C:\Users\tarda\source\repos\ConexionBaseDatos\bin\Debug\ConexionBaseDatos.pdb
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.exe
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.pdb
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.FormPrincipal.resources
+C:\Users\tarda\source\repos\ConexionBaseDatos\obj\Debug\ConexionBaseDatos.FormCrearJob.resources
