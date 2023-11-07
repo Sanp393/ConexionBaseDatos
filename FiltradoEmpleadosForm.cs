@@ -25,7 +25,7 @@ namespace ConexionBaseDatos
 
         private void TXTBOXCiudad_TextChanged(object sender, EventArgs e)
         {
-            _ciudad = TXTBOXCiudad.Text;
+            _ciudad = COMBOXCiudad.SelectedValue.ToString();
         }
 
         private void TXTBOXNombre_TextChanged(object sender, EventArgs e)
