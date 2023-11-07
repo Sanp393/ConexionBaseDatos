@@ -127,6 +127,7 @@
             this.COMBOXCiudad.Name = "COMBOXCiudad";
             this.COMBOXCiudad.Size = new System.Drawing.Size(236, 24);
             this.COMBOXCiudad.TabIndex = 11;
+            this.COMBOXCiudad.SelectedIndexChanged += new System.EventHandler(this.COMBOXCiudad_SelectedIndexChanged);
             // 
             // FiltradoEmpleadosForm
             // 
