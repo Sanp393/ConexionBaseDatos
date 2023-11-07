@@ -73,10 +73,14 @@ namespace ConexionBaseDatos
                 Employee employee = new Employee(employeeId, employeeFirstName, employeeLastName, 
                     employeeEmail, employeePhoneNumber, employeeHireDate, employeeJobId,
                     employeeSalary, employeeManagerId, employeeDepartmentId);
+
+                employees.Add(employee);
             }
             recEmployees.Close();
             return employees;
         }
+
+        //
         private List<Job> jobList()
         {
             List<Job> jobs = new List<Job>();
@@ -122,8 +126,8 @@ namespace ConexionBaseDatos
                 Password =123456789");
 
                 connBD.Open();
-                LSTBOXJobs.Items.AddRange(jobList().ToArray());
-                MessageBox.Show("Se ha encontrado el servidor!!!");
+                LSTBOXEmployees.Items.AddRange(employeeList().ToArray());
+                //MessageBox.Show("Se ha encontrado el servidor!!!");
             }
             catch(SqlException ex)
             {
@@ -137,7 +141,7 @@ namespace ConexionBaseDatos
             try
             {
                 connBD.Close();
-                LSTBOXJobs.Items.Clear();
+                LSTBOXEmployees.Items.Clear();
                 MessageBox.Show("Se ha desconectado del servidor!!!");
             }
             catch(SqlException ex)
@@ -157,8 +161,8 @@ namespace ConexionBaseDatos
                     jobEmployee = FCJ.nuevoJob;
                     
                 InsertJob();
-                LSTBOXJobs.Items.AddRange(jobList().ToArray());
-                MessageBox.Show("Los datos se han guardado en la base de datos");
+                LSTBOXEmployees.Items.AddRange(employeeList().ToArray());
+                //MessageBox.Show("Los datos se han guardado en la base de datos");
             }
             catch(SqlException ex)
             {

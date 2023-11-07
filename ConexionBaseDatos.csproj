@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
+    <Compile Include="FiltradoEmpleadosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiltradoEmpleadosForm.Designer.cs">
+      <DependentUpon>FiltradoEmpleadosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,8 +66,12 @@
       <DependentUpon>FormCrearJob.cs</DependentUpon>
     </Compile>
     <Compile Include="Job.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FiltradoEmpleadosForm.resx">
+      <DependentUpon>FiltradoEmpleadosForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
